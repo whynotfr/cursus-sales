@@ -121,7 +121,7 @@ donne ceci
 ```
 
 
-Enfin, on peut mettre du texte `en rouge` avec <code>ceci</code>.
+Enfin, on peut mettre du texte `en rouge avec ceci`.
 
 
 
