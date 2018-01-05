@@ -129,10 +129,10 @@ Enfin, on peut mettre du texte `en rouge avec ceci`.
 
 
 * Liens : les liens doivent avoir ceci : `target="_blank" class="text-primary"`
- * `target="_blank"` : ouvre dans un nouvel onglet
- * `class="text-primary` : leur donne une couleur qui les rend visible
+  * `target="_blank"` : ouvre dans un nouvel onglet
+  * `class="text-primary` : leur donne une couleur qui les rend visible
 * Listes : doivent avoir la classe : `ul-normal`
- * Sans cela, elles vont être trop grosses
+  * Sans cela, elles vont être trop grosses
 
 ⚠ Seule la première liste en a besoin. Ainsi, pour faire des sous-listes, il faudra faire simplement : 
 
