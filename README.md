@@ -91,21 +91,28 @@ Une citation stylay
 ```
 
 ### Exemples
+```html
 <blockquote class="blockquote">Citation</blockquote>
-
+```
 
 Donne ceci :
 
 > Citation
 
-
+```html
 <pre>$ du_code.code
 donne ceci</pre>
+```
 
 ```
 $ du_code.code
 donne ceci
 ```
+
+```
+<p>Enfin, on peut mettre du texte <code>en rouge avec ceci</code>.
+```
+
 
 Enfin, on peut mettre du texte `en rouge` avec <code>ceci</code>.
 
