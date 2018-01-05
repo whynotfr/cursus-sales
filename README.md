@@ -134,7 +134,7 @@ Enfin, on peut mettre du texte `en rouge avec ceci`.
 * Listes : doivent avoir la classe : `ul-normal`
   * Sans cela, elles vont être trop grosses
 
-⚠ Seule la première liste en a besoin. Ainsi, pour faire des sous-listes, il faudra faire simplement : 
+⚠ Seule la première liste en a besoin. Ainsi, pour faire des sous-listes, il faudra faire simplement :
 
 ```html
 <ul class="ul-normal">
@@ -148,4 +148,9 @@ Enfin, on peut mettre du texte `en rouge avec ceci`.
 </ul>
 ```
 
+
+## Conseils
+
+* Ne pas hésiter à faire un trello pour bien s'organiser, avant d'écrire le contenu
+* Attention à ne pas oublier de renommer les fichier si jamais il y a un changement dans un jour ou non.
 Bonne chance !
