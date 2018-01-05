@@ -91,6 +91,7 @@ Une citation stylay
 ```
 
 ### Exemples
+#### a. Blockquote
 ```html
 <blockquote class="blockquote">Citation</blockquote>
 ```
@@ -99,15 +100,21 @@ Donne ceci :
 
 > Citation
 
+
+#### b. Codebloc
 ```html
 <pre>$ du_code.code
 donne ceci</pre>
 ```
 
+Donne ceci :
+
 ```
 $ du_code.code
 donne ceci
 ```
+
+#### c. Pre-code
 
 ```
 <p>Enfin, on peut mettre du texte <code>en rouge avec ceci</code>.
@@ -121,5 +128,24 @@ Enfin, on peut mettre du texte `en rouge` avec <code>ceci</code>.
 ### Classes à donner
 
 
-* Liens : 
-* Listes : 
+* Liens : les liens doivent avoir ceci : `target="_blank" class="text-primary"`
+ * `target="_blank"` : ouvre dans un nouvel onglet
+ * `class="text-primary` : leur donne une couleur qui les rend visible
+* Listes : doivent avoir la classe : `ul-normal`
+ * Sans cela, elles vont être trop grosses
+
+⚠ Seule la première liste en a besoin. Ainsi, pour faire des sous-listes, il faudra faire simplement : 
+
+```html
+<ul class="ul-normal">
+	<li>Élément 1</li>
+	<li>Élément 2
+		<ul>
+			<li>Explication 1 sur l'élément 2</li>
+			<li>Explication 2 sur l'élément 2</li>
+		</ul></li>
+	<li>Élément 3</li>
+</ul>
+```
+
+Bonne chance !
